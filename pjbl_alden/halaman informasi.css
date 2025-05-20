@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+    text-decoration: none;
+}
+
+.navigation a {
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.account-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  background-color: #fff;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.artwork-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.artwork-image {
+  width: 200px;
+  border-radius: 12px;
+}
+
+.artwork-info h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.artwork-info h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-weight: normal;
+}
+
+.artwork-info p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.icons {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.icons span {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.description h2,
+.recommendation h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.description p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+hr {
+  margin: 3rem 0 2rem;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.recommendation-list {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.recommendation-list img {
+  width: 150px;
+  border-radius: 12px;
+}
+
+.arrows {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.arrows span {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer-logo img {
+  margin-bottom: 0.5rem;
+}
+
+.footer h4 {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .artwork-section {
+    flex-wrap: nowrap;
+  }
+}
+
+.photographer{
+    font-size: 0.8rem;
+    color: black;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

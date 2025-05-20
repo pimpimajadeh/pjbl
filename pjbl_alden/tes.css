@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+    text-decoration: none;
+}
+
+.navigation a {
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.account-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.recent-section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.recent-section h2 {
+  margin-bottom: 1rem;
+}
+
+.recent-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-direction: row;
+}
+
+.recent-images img {
+  border-radius: 8px;
+  width: 125px;
+  height: auto;
+}
+
+.search-filter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.search-filter input,
+.search-filter select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 2rem 4rem;
+}
+
+.card {
+  position: relative;
+  text-align: center;
+  border: #333 1px solid;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 80%;
+  border-radius: 8px;
+  filter: grayscale(50%);
+  margin-top: 10px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.caption span {
+  font-size: 0.75rem;
+  display: block;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.footer-logo img {
+  margin-bottom: 0.5rem;
+}
+
+.footer h4 {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-logo,
+  .footer-content > div {
+    text-align: left;   
+    max-width: 100%;
+  }
+}
+
+.click{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
